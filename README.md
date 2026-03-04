@@ -68,6 +68,7 @@ Start client:
 
 python src/player2.py
 
+
 ## Screenshots
 
 ### Game Interface
