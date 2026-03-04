@@ -67,3 +67,17 @@ python src/player1.py
 Start client:
 
 python src/player2.py
+
+## Screenshots
+
+### Game Interface
+![Game UI](screenshots/game_UI.png)
+
+### Client Server Connection
+![Terminal Connection](screenshots/terminal_connection.png)
+
+### Wireshark Analysis (Before Game Start)
+![Wireshark Before](screenshots/wireshark_analysis_before.png)
+
+### Wireshark Analysis (After Game Start)
+![Wireshark After](screenshots/wireshark_analysis_after.png)
