@@ -77,9 +77,10 @@ python src/player2.py
 ### Client Server Connection
 ![Terminal Connection](screenshots/terminal_connection.png)
 
+### Wireshark Analysis (Before Game Start)
+![Wireshark Before](screenshots/wireshark_analysis_before.png)
+
 ### Wireshark Analysis (After Game Start)
 ![Wireshark After](screenshots/wireshark_analysis_after.png)
 
-### Wireshark Analysis (Before Game Start)
-![Wireshark Before](screenshots/wireshark_analysis_before.png)
 
