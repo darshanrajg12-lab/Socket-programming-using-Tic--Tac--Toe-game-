@@ -24,21 +24,40 @@ The GUI is built using Tkinter and threading is used for handling simultaneous n
 - Threading
 - Wireshark
 
+## Architecture
+
+The system follows a **client-server architecture**.
+
+- Player 1 acts as the **server**
+- Player 2 acts as the **client**
+- Communication occurs using **TCP sockets**
+- The server listens on **port 8000**
+- Moves are transmitted as messages between players
+
+The GUI is implemented using **Tkinter**, and **threading** allows the server to handle communication while updating the interface.
+
 ## Project Structure
+
+```
 tic-tac-toe-socket-game
 │
 ├── src
-│ ├── player1.py
-│ ├── player2.py
-│ └── gameboard.py
+│   ├── player1.py
+│   ├── player2.py
+│   └── gameboard.py
 │
 ├── docs
-│ └── project_report.pdf
+│   └── project_report.pdf
 │
 ├── screenshots
+│   ├── game_UI.png
+│   ├── terminal_connection.png
+│   ├── wireshark_analysis_before.png
+│   └── wireshark_analysis_after.png
 │
 ├── requirements.txt
 └── README.md
+```
 ## Running the Project
 
 Start server:
